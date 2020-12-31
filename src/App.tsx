@@ -47,7 +47,8 @@ function App() {
       
     <DivContainer>
       <div className="App--instructions">
-        Click an image below
+        This is a LightBox like component built with React. We can use it in projects to preview images.<br/>
+        Click an image below and use arrow keys to navigate.
       </div>
       <div className="App--items-container">
         {IMAGE_URLS.map(imageUrl =>
